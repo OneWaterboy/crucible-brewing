@@ -63,3 +63,23 @@ div#top-bar-wrap {
 #copyright .copyright-link {
     color: #13aff0;
 }
+
+div#footer-inner {
+    background: #000;
+}
+
+div#footer-inner h1 {
+    color: #FFF;
+}
+
+.footer-section.hours {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+}
+
+.custom-footer-sections {
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 0;
+}

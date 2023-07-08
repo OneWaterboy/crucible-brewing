@@ -28,3 +28,24 @@ function ajrwp_enqueue_stylesheet() {
     wp_enqueue_style( 'responsive-styles', get_stylesheet_directory_uri() . '/responsive-styles.css' );
 }
 add_action( 'wp_enqueue_scripts', 'ajrwp_enqueue_stylesheet' );
+
+
+
+function ajrwp_enqueue_admin_styles() {
+    wp_enqueue_style( 'admin-styles', get_stylesheet_directory_uri() . '/admin-styles.css' );
+}
+add_action( 'admin_enqueue_scripts', 'ajrwp_enqueue_admin_styles' );
+
+
+
+if( function_exists('acf_add_options_page') ) {
+    
+    acf_add_options_page(array(
+        'page_title'    => 'Taproom Info',
+        'menu_title'    => 'Taproom Info',
+        'menu_slug'     => 'taproom-info',
+        'capability'    => 'edit_posts',
+        'redirect'      => false,
+        'icon_url'      => get_stylesheet_directory_uri() . '/graphics/beer-tap.png'
+    ));
+}
