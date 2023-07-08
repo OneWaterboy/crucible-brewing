@@ -10,3 +10,52 @@ Updated: 2023-07-08 16:48:22
 
 */
 
+span.telephone-header img,
+span.email-header img {
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin-right: 5px;
+}
+
+div#top-bar-inner div {
+    width: 50%;
+    display: flex;
+}
+
+span.telephone-header a,
+span.email-header a {
+    display: flex;
+}
+
+span.telephone-header a span,
+span.email-header a span{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+span.telephone-header {
+    margin-right: 15px;
+}
+
+.social-header img {
+    height: 20px;
+}
+
+div#top-bar-inner {
+    display: flex;
+}
+
+.social-header {
+    justify-content: right;
+}
+
+.social-header a {
+    margin-right: 10px;
+}
+
+div#top-bar-wrap {
+    background: #F5F5F5;
+    border-bottom: 0.5px solid #000;
+}
