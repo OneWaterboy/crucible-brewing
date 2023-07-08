@@ -27,10 +27,39 @@ if ( ! defined( 'ABSPATH' ) ) {
 						</span>
 					<?php endwhile; ?>
 				<?php endif; ?>
+				<div class="social-footer">
+				<span>
+					<a href="https://www.facebook.com/cruciblebrewingeverett/" target="_blank">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/graphics/instagram.png'; ?>" alt="">
+					</a>
+				</span>
+				<span>
+					<a href="https://www.facebook.com/cruciblebrewingeverett/" target="_blank">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/graphics/facebook.png'; ?>" alt="">
+					</a>
+				</span>
+				<span>
+					<a href="https://www.youtube.com/channel/UC9lu6Xg5lqpRFSR3IYsHMvw/videos" target="_blank">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/graphics/youtube.png'; ?>" alt="">
+					</a>
+				</span>
+				<span>
+					<a href="https://twitter.com/CrucibleBrewCo" target="_blank">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/graphics/twitter.png'; ?>" alt="">
+					</a>
+				</span>
 			</div>
-			<div class="footer-section">
 			</div>
-			<div class="footer-section">
+			<div class="footer-section map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5884.015079250828!2d-122.22304036053845!3d47.91201966605145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549006d4ee9603b5%3A0xbae48d90cf61be1a!2sCrucible%20Brewing%20-%20Everett%20Foundry!5e0!3m2!1sen!2sus!4v1688849438059!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div class="footer-section address">
+				<div class="footer-address">
+					<div>Crucible Brewing Everett Foundry</div>
+					<div>909 SE Everett Mall Way, Suite D440</div>
+					<div>Everett, WA 98208</div>
+					<a href="https://goo.gl/maps/tCvGsyUhEj2d2ExD9" target="_blank">Click Here For Directions</a>
+				</div>
 			</div>
 		</div>
 

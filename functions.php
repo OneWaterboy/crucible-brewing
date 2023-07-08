@@ -36,6 +36,11 @@ function ajrwp_enqueue_admin_styles() {
 }
 add_action( 'admin_enqueue_scripts', 'ajrwp_enqueue_admin_styles' );
 
+function ajrwp_enqueue_google_fonts() {
+    wp_enqueue_style( 'roboto-font', '//fonts.googleapis.com/css?family=Roboto&display=swap', array(), null );
+}
+add_action( 'wp_enqueue_scripts', 'ajrwp_enqueue_google_fonts' );
+
 
 
 if( function_exists('acf_add_options_page') ) {
