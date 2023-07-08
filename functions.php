@@ -53,4 +53,13 @@ if( function_exists('acf_add_options_page') ) {
         'redirect'      => false,
         'icon_url'      => get_stylesheet_directory_uri() . '/graphics/beer-tap.png'
     ));
+
+    acf_add_options_page(array(
+        'page_title'    => 'Page Headers',
+        'menu_title'    => 'Page Headers',
+        'menu_slug'     => 'page-headers',
+        'capability'    => 'edit_posts',
+        'redirect'      => false,
+        'icon_url'      => get_stylesheet_directory_uri() . '/graphics/picture.png'
+    ));
 }

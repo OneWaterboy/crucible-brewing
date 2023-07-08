@@ -1,4 +1,5 @@
-li#toplevel_page_taproom-info.toplevel_page_taproom-info img {
+li#toplevel_page_taproom-info.toplevel_page_taproom-info img,
+li#toplevel_page_page-headers.toplevel_page_page-headers img {
     width: 26px;
     padding: 0px;
 }
