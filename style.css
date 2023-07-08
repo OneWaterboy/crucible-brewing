@@ -59,3 +59,7 @@ div#top-bar-wrap {
     background: #F5F5F5;
     border-bottom: 0.5px solid #000;
 }
+
+#copyright .copyright-link {
+    color: #13aff0;
+}
