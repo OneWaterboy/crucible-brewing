@@ -22,3 +22,9 @@ endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+
+function ajrwp_enqueue_stylesheet() {
+    wp_enqueue_style( 'responsive-styles', get_stylesheet_directory_uri() . '/responsive-styles.css' );
+}
+add_action( 'wp_enqueue_scripts', 'ajrwp_enqueue_stylesheet' );
